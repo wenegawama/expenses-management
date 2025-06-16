@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.wen.expenses_management.entities.Expense;
 
-public interface  ExpenseRepository extends JpaRepository<Expense, UUID> {
+public interface  ExpenseRepository extends JpaRepository<Expense, Long> {
     
 
 }
